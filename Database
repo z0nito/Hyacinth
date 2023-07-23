@@ -4,8 +4,8 @@ local Database = {
   }
 }
 
-Database.PrintFunction = function()
-  return 'yes'
+function Database.Print()
+  print("Done")
 end
 
 
