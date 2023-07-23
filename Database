@@ -1,0 +1,19 @@
+local Database = {
+  ["Users"] = {
+      [3204456279] = {5,'KeyExample'}
+  }
+  ["Functions"] = {
+
+    ['print'] = {function(whattoprint) 
+      print(whattoprint)
+      end}
+  }
+
+
+}
+
+
+
+
+
+return Database
