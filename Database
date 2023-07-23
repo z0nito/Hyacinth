@@ -2,14 +2,10 @@ local Database = {
   ["Users"] = {
       [3204456279] = {5,'KeyExample'}
   }
-  ["Functions"] = {
-  }
-
-
 }
 
-Database.Functions.PrintFunction = function(whattoprint)
-  print(whattoprint)
+Database.PrintFunction = function()
+  return 'yes'
 end
 
 
